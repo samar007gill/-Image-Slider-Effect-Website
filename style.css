@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #eaeaea;
+    background: #000000;
     overflow: hidden;
 }
 
@@ -71,14 +71,14 @@ body {
     left: 100px;
     width: 300px;
     text-align: left;
-    color: #eee;
+    color: #bbff00;
     transform: translate(0, -50%);
     font-family: system-ui;
     display: none;
 }
 
 .content .name {
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
     font-weight: bold;
     opacity: 0;
@@ -88,8 +88,10 @@ body {
 .content .description {
     margin-top: 10px;
     margin-bottom: 20px;
-    opacity: 0;
+    opacity: 10;
     animation: animate 1s ease-in-out .3s 1 forwards;
+    font-size:20px; 
+    font-weight: bold;
 }
 
 .content button {
